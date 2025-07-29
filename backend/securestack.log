@@ -1,0 +1,629 @@
+2025-07-15 09:17:46,499 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 09:19:19,622 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 09:20:15,818 | WARNING | django.request | Not Found: /api/secured/\n
+2025-07-15 09:20:15,819 | WARNING | django.server | "GET /api/secured/%0A HTTP/1.1" 404 3656
+2025-07-15 09:29:40,642 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 23
+2025-07-15 09:30:14,900 | WARNING | django.request | Unauthorized: /api/token/
+2025-07-15 09:30:14,900 | WARNING | django.server | "POST /api/token/ HTTP/1.1" 401 63
+2025-07-15 09:32:37,841 | WARNING | django.request | Unauthorized: /api/token/
+2025-07-15 09:32:37,842 | WARNING | django.server | "POST /api/token/ HTTP/1.1" 401 63
+2025-07-15 09:35:35,982 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/serializers.py changed, reloading.
+2025-07-15 09:35:36,328 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 09:38:44,956 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 09:38:49,150 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 23
+2025-07-15 09:39:07,898 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 09:40:18,832 | INFO | api.views | testuser a accédé à /api/secured/
+2025-07-15 09:40:18,832 | INFO | django.server | "GET /api/secured/ HTTP/1.1" 200 48
+2025-07-15 09:43:57,684 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 09:44:38,871 | WARNING | django.request | Unauthorized: /api/admin-only/
+2025-07-15 09:44:38,871 | WARNING | django.server | "GET /api/admin-only/ HTTP/1.1" 401 107
+2025-07-15 09:45:01,672 | WARNING | django.request | Forbidden: /api/admin-only/
+2025-07-15 09:45:01,672 | WARNING | django.server | "GET /api/admin-only/ HTTP/1.1" 403 63
+2025-07-15 11:37:41,079 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 11:37:45,120 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 11:38:17,363 | INFO | django.server | "POST /api/promote-admin/ HTTP/1.1" 200 44
+2025-07-15 11:40:52,998 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 11:41:25,419 | INFO | django.server | "GET /api/admin-only/ HTTP/1.1" 200 73
+2025-07-15 13:09:46,781 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 13:09:56,569 | INFO | django.server | "GET /admin HTTP/1.1" 301 0
+2025-07-15 13:09:56,591 | INFO | django.server | "GET /admin/ HTTP/1.1" 302 0
+2025-07-15 13:09:56,641 | INFO | django.server | "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+2025-07-15 13:09:56,728 | INFO | django.server | "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+2025-07-15 13:09:56,736 | INFO | django.server | "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2025-07-15 13:09:56,736 | INFO | django.server | "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+2025-07-15 13:09:56,738 | INFO | django.server | "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2025-07-15 13:09:56,739 | INFO | django.server | "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+2025-07-15 13:09:56,739 | INFO | django.server | "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2025-07-15 13:09:56,782 | INFO | django.server | "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2025-07-15 13:09:56,857 | WARNING | django.request | Not Found: /favicon.ico
+2025-07-15 13:09:56,857 | WARNING | django.server | "GET /favicon.ico HTTP/1.1" 404 2718
+2025-07-15 13:10:17,799 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+2025-07-15 13:10:32,964 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+2025-07-15 13:15:43,879 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 13:15:51,253 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-07-15 13:15:51,328 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 6097
+2025-07-15 13:15:51,452 | INFO | django.server | "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2025-07-15 13:15:51,452 | INFO | django.server | "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2025-07-15 13:15:51,455 | INFO | django.server | "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2025-07-15 13:15:56,995 | INFO | django.server | "POST /admin/logout/ HTTP/1.1" 200 3568
+2025-07-15 13:15:59,726 | INFO | django.server | "GET /admin/ HTTP/1.1" 302 0
+2025-07-15 13:15:59,765 | INFO | django.server | "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+2025-07-15 13:16:08,642 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-07-15 13:16:08,690 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 6097
+2025-07-15 13:53:03,421 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/models.py changed, reloading.
+2025-07-15 13:53:03,831 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 14:12:14,712 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 14:15:37,920 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 16:18:26,327 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 16:22:34,040 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 22
+2025-07-15 16:23:10,245 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 6097
+2025-07-15 16:23:15,432 | WARNING | django.request | Not Found: /
+2025-07-15 16:23:15,432 | WARNING | django.server | "GET / HTTP/1.1" 404 2667
+2025-07-15 16:23:17,828 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 6097
+2025-07-15 16:24:12,931 | INFO | django.server | "GET /admin/auth/user/ HTTP/1.1" 200 11755
+2025-07-15 16:24:13,022 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:24:13,031 | INFO | django.server | "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2025-07-15 16:24:13,032 | INFO | django.server | "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2025-07-15 16:24:13,037 | INFO | django.server | "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2025-07-15 16:24:13,039 | INFO | django.server | "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2025-07-15 16:24:13,046 | INFO | django.server | "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2025-07-15 16:24:13,048 | INFO | django.server | "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+2025-07-15 16:24:13,055 | INFO | django.server | "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2025-07-15 16:24:13,058 | INFO | django.server | "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2025-07-15 16:24:13,072 | INFO | django.server | "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2025-07-15 16:24:13,073 | INFO | django.server | "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2025-07-15 16:24:13,082 | INFO | django.server | "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2025-07-15 16:24:13,136 | INFO | django.server | "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2025-07-15 16:24:13,137 | INFO | django.server | "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2025-07-15 16:24:13,142 | INFO | django.server | "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2025-07-15 16:24:13,144 | INFO | django.server | "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2025-07-15 16:24:13,145 | INFO | django.server | "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2025-07-15 16:24:14,530 | INFO | django.server | "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22200
+2025-07-15 16:24:14,560 | INFO | django.server | "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+2025-07-15 16:24:14,560 | INFO | django.server | "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2025-07-15 16:24:14,585 | INFO | django.server | "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2025-07-15 16:24:14,589 | INFO | django.server | "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+2025-07-15 16:24:14,592 | INFO | django.server | "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2025-07-15 16:24:14,593 | INFO | django.server | "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2025-07-15 16:24:14,593 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:24:14,609 | INFO | django.server | "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+2025-07-15 16:24:14,664 | INFO | django.server | "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2025-07-15 16:24:14,735 | INFO | django.server | "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2025-07-15 16:24:14,736 | INFO | django.server | "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2025-07-15 16:24:14,736 | INFO | django.server | "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2025-07-15 16:24:18,203 | INFO | django.server | "GET /admin/auth/user/ HTTP/1.1" 200 11755
+2025-07-15 16:24:20,586 | INFO | django.server | "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22200
+2025-07-15 16:24:20,637 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:24:42,641 | INFO | django.server | "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+2025-07-15 16:24:42,680 | INFO | django.server | "GET /admin/auth/user/ HTTP/1.1" 200 11950
+2025-07-15 16:24:42,787 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:26:50,825 | WARNING | django.request | Unauthorized: /api/secured/
+2025-07-15 16:26:50,826 | WARNING | django.server | "POST /api/secured/ HTTP/1.1" 401 58
+2025-07-15 16:27:46,066 | INFO | django.server | "POST /admin/logout/ HTTP/1.1" 200 3568
+2025-07-15 16:27:49,538 | INFO | django.server | "GET /admin/ HTTP/1.1" 302 0
+2025-07-15 16:27:49,568 | INFO | django.server | "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+2025-07-15 16:27:59,833 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-07-15 16:27:59,882 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 4521
+2025-07-15 16:30:00,563 | INFO | django.server | "POST /admin/logout/ HTTP/1.1" 200 3568
+2025-07-15 16:30:03,164 | INFO | django.server | "GET /admin/ HTTP/1.1" 302 0
+2025-07-15 16:30:03,187 | INFO | django.server | "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+2025-07-15 16:30:19,685 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-07-15 16:30:19,714 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 6474
+2025-07-15 16:30:23,235 | INFO | django.server | "GET /admin/auth/user/ HTTP/1.1" 200 11755
+2025-07-15 16:30:23,296 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:30:24,863 | INFO | django.server | "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22244
+2025-07-15 16:30:24,903 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:46:57,064 | INFO | django.server | "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+2025-07-15 16:46:57,107 | INFO | django.server | "GET /admin/auth/user/ HTTP/1.1" 200 11950
+2025-07-15 16:46:57,215 | INFO | django.server | "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-07-15 16:47:13,655 | WARNING | django.request | Unauthorized: /api/secured/
+2025-07-15 16:47:13,657 | WARNING | django.server | "POST /api/secured/ HTTP/1.1" 401 58
+2025-07-15 16:47:46,310 | WARNING | django.request | Unauthorized: /api/servers/
+2025-07-15 16:47:46,310 | WARNING | django.server | "GET /api/servers/ HTTP/1.1" 401 58
+2025-07-15 17:09:57,940 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/urls.py changed, reloading.
+2025-07-15 17:09:58,350 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 17:10:37,921 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 17:11:19,413 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 2
+2025-07-15 17:13:53,445 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 2
+2025-07-15 17:14:41,981 | WARNING | django.request | Bad Request: /api/servers/
+2025-07-15 17:14:41,981 | WARNING | django.server | "POST /api/servers/ HTTP/1.1" 400 83
+2025-07-15 18:56:36,376 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 18:56:41,924 | WARNING | django.request | Unauthorized: /api/servers/
+2025-07-15 18:56:41,925 | WARNING | django.server | "POST /api/servers/ HTTP/1.1" 401 172
+2025-07-15 19:03:59,953 | INFO | django.server | "POST /api/token/refresh/ HTTP/1.1" 200 241
+2025-07-15 19:04:18,868 | INFO | django.server | "POST /api/servers/ HTTP/1.1" 201 139
+2025-07-15 19:09:51,107 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 141
+2025-07-15 19:10:22,368 | INFO | django.server | "GET /api/servers/1/ HTTP/1.1" 200 139
+2025-07-15 19:10:36,905 | WARNING | django.request | Bad Request: /api/servers/1/
+2025-07-15 19:10:36,906 | WARNING | django.server | "PUT /api/servers/1/ HTTP/1.1" 400 124
+2025-07-15 19:11:31,542 | INFO | django.server | "PUT /api/servers/1/ HTTP/1.1" 200 139
+2025-07-15 19:11:43,672 | INFO | django.server | "GET /api/servers/1/ HTTP/1.1" 200 139
+2025-07-15 19:12:00,196 | INFO | django.server | "DELETE /api/servers/1/ HTTP/1.1" 204 0
+2025-07-15 19:20:29,967 | WARNING | django.request | Bad Request: /api/servers/
+2025-07-15 19:20:29,968 | WARNING | django.server | "POST /api/servers/ HTTP/1.1" 400 124
+2025-07-15 19:20:40,281 | INFO | django.server | "POST /api/servers/ HTTP/1.1" 201 139
+2025-07-15 19:59:08,158 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-15 19:59:08,160 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 56
+2025-07-15 19:59:35,370 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-15 19:59:35,370 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 56
+2025-07-15 20:00:42,554 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-15 20:00:42,554 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 56
+2025-07-15 20:02:06,433 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 141
+2025-07-15 20:02:25,104 | WARNING | django.request | Not Found: /api/backups/2/
+2025-07-15 20:02:25,104 | WARNING | django.server | "GET /api/backups/2/ HTTP/1.1" 404 5595
+2025-07-15 20:05:52,635 | WARNING | django.request | Not Found: /api/backups/2/
+2025-07-15 20:05:52,636 | WARNING | django.server | "POST /api/backups/2/ HTTP/1.1" 404 5596
+2025-07-15 20:06:03,320 | WARNING | django.request | Unauthorized: /api/backups/
+2025-07-15 20:06:03,320 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 401 172
+2025-07-15 20:07:14,217 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 20:07:32,557 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 141
+2025-07-15 20:07:46,039 | WARNING | django.request | Not Found: /api/backups/2/
+2025-07-15 20:07:46,039 | WARNING | django.server | "GET /api/backups/2/ HTTP/1.1" 404 5595
+2025-07-15 20:08:21,773 | WARNING | django.request | Not Found: /api/backups/1/
+2025-07-15 20:08:21,773 | WARNING | django.server | "GET /api/backups/1/ HTTP/1.1" 404 5595
+2025-07-15 20:08:53,559 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 141
+2025-07-15 20:09:25,351 | WARNING | django.request | Not Found: /api/backups/3/
+2025-07-15 20:09:25,351 | WARNING | django.server | "GET /api/backups/3/ HTTP/1.1" 404 5595
+2025-07-15 20:09:37,232 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 141
+2025-07-15 20:10:41,173 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 569
+2025-07-15 20:51:58,036 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-15 20:51:58,655 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:52:01,845 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/urls.py changed, reloading.
+2025-07-15 20:52:02,018 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:52:08,315 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:54:21,569 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:55:01,363 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:56:41,104 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/urls.py changed, reloading.
+2025-07-15 20:56:41,319 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:56:46,349 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 20:56:54,236 | INFO | django.server | "GET /api/backups/1/ HTTP/1.1" 200 141
+2025-07-15 20:57:03,458 | INFO | django.server | "PUT /api/backups/1/ HTTP/1.1" 200 141
+2025-07-15 20:57:10,724 | INFO | django.server | "PUT /api/backups/2/ HTTP/1.1" 200 141
+2025-07-15 20:57:39,186 | INFO | django.server | "DELETE /api/backups/4/ HTTP/1.1" 204 0
+2025-07-15 20:57:48,409 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 427
+2025-07-15 20:59:26,480 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-15 20:59:26,679 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:03:30,115 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:03:35,244 | WARNING | django.request | Unauthorized: /api/incidents/
+2025-07-15 21:03:35,244 | WARNING | django.server | "GET /api/incidents/ HTTP/1.1" 401 172
+2025-07-15 21:04:39,666 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 21:05:02,065 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 2
+2025-07-15 21:05:24,974 | WARNING | django.request | Method Not Allowed: /api/incidents/1/
+2025-07-15 21:05:24,975 | WARNING | django.server | "POST /api/incidents/1/ HTTP/1.1" 405 41
+2025-07-15 21:05:37,560 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 200
+2025-07-15 21:05:44,977 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 202
+2025-07-15 21:05:49,900 | WARNING | django.request | Method Not Allowed: /api/incidents/1/
+2025-07-15 21:05:49,900 | WARNING | django.server | "GET /api/incidents/1/ HTTP/1.1" 405 40
+2025-07-15 21:49:28,303 | WARNING | django.request | Method Not Allowed: /api/incidents/1/
+2025-07-15 21:49:28,304 | WARNING | django.server | "GET /api/incidents/1/ HTTP/1.1" 405 40
+2025-07-15 21:49:33,648 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:49:36,418 | WARNING | django.request | Method Not Allowed: /api/incidents/1/
+2025-07-15 21:49:36,418 | WARNING | django.server | "GET /api/incidents/1/ HTTP/1.1" 405 40
+2025-07-15 21:49:43,127 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 202
+2025-07-15 21:49:49,936 | WARNING | django.request | Method Not Allowed: /api/incidents/1/
+2025-07-15 21:49:49,937 | WARNING | django.server | "GET /api/incidents/1/ HTTP/1.1" 405 40
+2025-07-15 21:51:30,911 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-15 21:51:31,115 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:52:09,212 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/urls.py changed, reloading.
+2025-07-15 21:52:09,407 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:52:25,975 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/urls.py changed, reloading.
+2025-07-15 21:52:26,562 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:54:09,220 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-15 21:54:09,731 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:54:30,764 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 21:54:41,974 | INFO | django.server | "GET /api/incidents/1/ HTTP/1.1" 200 200
+2025-07-15 21:54:50,277 | INFO | django.server | "PUT /api/incidents/1/ HTTP/1.1" 200 200
+2025-07-15 21:54:56,298 | INFO | django.server | "GET /api/incidents/1 HTTP/1.1" 301 0
+2025-07-15 21:54:56,334 | INFO | django.server | "GET /api/incidents/1/ HTTP/1.1" 200 200
+2025-07-15 21:55:07,313 | INFO | django.server | "PUT /api/incidents/1/ HTTP/1.1" 200 200
+2025-07-15 21:55:12,674 | WARNING | django.request | Method Not Allowed: /api/incidents/1/
+2025-07-15 21:55:12,674 | WARNING | django.server | "DELETE /api/incidents/1/ HTTP/1.1" 405 43
+2025-07-15 22:08:48,271 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-15 22:08:48,844 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 22:09:30,151 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/urls.py changed, reloading.
+2025-07-15 22:09:30,628 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 22:09:38,087 | WARNING | django.request | Unauthorized: /api/incidents/1/
+2025-07-15 22:09:38,087 | WARNING | django.server | "DELETE /api/incidents/1/ HTTP/1.1" 401 172
+2025-07-15 22:10:38,516 | WARNING | django.request | Unauthorized: /api/incidents/1/
+2025-07-15 22:10:38,516 | WARNING | django.server | "DELETE /api/incidents/1/ HTTP/1.1" 401 176
+2025-07-15 22:10:56,246 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 22:11:11,898 | INFO | django.server | "DELETE /api/incidents/1/ HTTP/1.1" 204 0
+2025-07-15 22:11:19,074 | WARNING | django.request | Not Found: /api/incidents/1/
+2025-07-15 22:11:19,074 | WARNING | django.server | "PUT /api/incidents/1/ HTTP/1.1" 404 49
+2025-07-15 22:11:26,106 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 2
+2025-07-15 22:11:37,968 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 200
+2025-07-15 22:11:45,556 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 202
+2025-07-15 22:11:54,695 | INFO | django.server | "GET /api/incidents/2/ HTTP/1.1" 200 200
+2025-07-15 22:11:59,054 | INFO | django.server | "PUT /api/incidents/2/ HTTP/1.1" 200 200
+2025-07-15 22:12:03,500 | INFO | django.server | "DELETE /api/incidents/2/ HTTP/1.1" 204 0
+2025-07-15 22:18:46,241 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/admin.py changed, reloading.
+2025-07-15 22:18:46,508 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 22:19:40,767 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/admin.py changed, reloading.
+2025-07-15 22:19:40,975 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 22:19:47,269 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 22:19:54,167 | INFO | django.server | "POST /admin/logout/ HTTP/1.1" 200 3568
+2025-07-15 22:19:54,229 | INFO | django.server | "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2025-07-15 22:19:54,235 | INFO | django.server | "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2025-07-15 22:19:54,236 | INFO | django.server | "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2025-07-15 22:19:54,238 | INFO | django.server | "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2025-07-15 22:19:54,239 | INFO | django.server | "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2025-07-15 22:19:54,243 | INFO | django.server | "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2025-07-15 22:19:56,400 | INFO | django.server | "GET /admin/ HTTP/1.1" 302 0
+2025-07-15 22:19:56,451 | INFO | django.server | "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+2025-07-15 22:19:56,547 | INFO | django.server | "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2025-07-15 22:20:06,133 | INFO | django.server | "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-07-15 22:20:06,190 | INFO | django.server | "GET /admin/ HTTP/1.1" 200 9028
+2025-07-15 22:20:06,275 | INFO | django.server | "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2025-07-15 22:20:06,329 | INFO | django.server | "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2025-07-15 22:20:06,330 | INFO | django.server | "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2025-07-15 23:09:20,496 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 23:09:25,425 | WARNING | django.request | Unauthorized: /api/secured/
+2025-07-15 23:09:25,427 | WARNING | django.server | "GET /api/secured/ HTTP/1.1" 401 172
+2025-07-15 23:10:07,621 | WARNING | django.request | Method Not Allowed: /api/token/
+2025-07-15 23:10:07,623 | WARNING | django.server | "GET /api/token/ HTTP/1.1" 405 40
+2025-07-15 23:10:31,310 | WARNING | django.request | Method Not Allowed: /api/token/
+2025-07-15 23:10:31,310 | WARNING | django.server | "GET /api/token/ HTTP/1.1" 405 40
+2025-07-15 23:20:49,190 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 23:21:49,102 | INFO | api.views | oumaima a accédé à /api/secured/
+2025-07-15 23:21:49,103 | INFO | django.server | "GET /api/secured/ HTTP/1.1" 200 48
+2025-07-15 23:32:28,349 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-15 23:32:29,921 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-15 23:36:58,916 | WARNING | django.request | Not Found: /api/promote/
+2025-07-15 23:36:58,918 | WARNING | django.server | "POST /api/promote/ HTTP/1.1" 404 5872
+2025-07-15 23:37:33,808 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-15 23:37:50,683 | WARNING | django.request | Not Found: /api/promote/
+2025-07-15 23:37:50,683 | WARNING | django.server | "POST /api/promote/ HTTP/1.1" 404 5872
+2025-07-15 23:38:01,286 | WARNING | django.request | Not Found: /api/promote/
+2025-07-15 23:38:01,286 | WARNING | django.server | "POST /api/promote/ HTTP/1.1" 404 5872
+2025-07-16 09:03:16,535 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 09:03:20,326 | WARNING | django.request | Unauthorized: /api/promote/
+2025-07-16 09:03:20,326 | WARNING | django.server | "POST /api/promote/ HTTP/1.1" 401 172
+2025-07-16 09:03:32,496 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-16 09:03:44,824 | WARNING | django.request | Unauthorized: /api/promote/
+2025-07-16 09:03:44,824 | WARNING | django.server | "POST /api/promote/ HTTP/1.1" 401 176
+2025-07-16 09:04:13,620 | INFO | django.server | "POST /api/promote/ HTTP/1.1" 200 37
+2025-07-16 09:08:33,243 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-16 09:08:33,443 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 09:08:48,340 | INFO | api.views | admin a tenté de promouvoir admin, qui est déjà admin.
+2025-07-16 09:08:48,341 | INFO | django.server | "POST /api/promote/ HTTP/1.1" 200 37
+2025-07-16 09:21:34,111 | INFO | django.utils.autoreload | /home/oumaima/SecureStack/backend/api/views.py changed, reloading.
+2025-07-16 09:21:34,299 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 09:32:23,875 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 23
+2025-07-16 09:32:58,905 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-16 09:33:55,450 | WARNING | django.request | Method Not Allowed: /api/secured/
+2025-07-16 09:33:55,451 | WARNING | django.server | "POST /api/secured/ HTTP/1.1" 405 41
+2025-07-16 09:34:04,001 | INFO | api.views | testuser a accédé à /api/secured/
+2025-07-16 09:34:04,001 | INFO | django.server | "GET /api/secured/ HTTP/1.1" 200 48
+2025-07-16 09:35:43,963 | WARNING | django.request | Forbidden: /api/promote/
+2025-07-16 09:35:43,963 | WARNING | django.server | "POST /api/promote/ HTTP/1.1" 403 63
+2025-07-16 09:36:41,677 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-16 09:37:00,381 | INFO | api.views | admin a promu testuser en admin.
+2025-07-16 09:37:00,384 | INFO | django.server | "POST /api/promote/ HTTP/1.1" 200 44
+2025-07-16 09:40:28,733 | WARNING | django.request | Bad Request: /api/servers/
+2025-07-16 09:40:28,733 | WARNING | django.server | "POST /api/servers/ HTTP/1.1" 400 48
+2025-07-16 09:40:46,934 | INFO | api.views | testuser a créé le serveur 'Serveur 1' (192.168.1.1).
+2025-07-16 09:40:46,937 | INFO | django.server | "POST /api/servers/ HTTP/1.1" 201 140
+2025-07-16 09:41:20,475 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 282
+2025-07-16 09:41:38,074 | INFO | django.server | "GET /api/servers/3/ HTTP/1.1" 200 140
+2025-07-16 09:41:52,459 | INFO | django.server | "PUT /api/servers/3/ HTTP/1.1" 200 140
+2025-07-16 09:42:00,500 | INFO | django.server | "PUT /api/servers/2/ HTTP/1.1" 200 140
+2025-07-16 09:42:18,712 | WARNING | api.views | testuser a supprimé le serveur 'Serveur 1' (192.168.1.1).
+2025-07-16 09:42:18,719 | INFO | django.server | "DELETE /api/servers/3/ HTTP/1.1" 204 0
+2025-07-16 09:42:26,735 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 142
+2025-07-16 09:42:49,538 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 430
+2025-07-16 09:43:00,101 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-16 09:43:00,102 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 75
+2025-07-16 09:44:01,264 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-16 09:44:01,264 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 111
+2025-07-16 09:45:25,317 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-16 09:45:25,318 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 56
+2025-07-16 09:45:40,618 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-16 09:45:40,618 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 56
+2025-07-16 09:47:21,047 | INFO | api.views | testuser a créé une tâche de backup pour le serveur ID 2 à 2025-07-16 09:47:21.044454+00:00.
+2025-07-16 09:47:21,049 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 112
+2025-07-16 09:47:48,956 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 543
+2025-07-16 09:48:04,488 | INFO | django.server | "GET /api/backups/5/ HTTP/1.1" 200 112
+2025-07-16 09:48:10,236 | INFO | django.server | "PUT /api/backups/5/ HTTP/1.1" 200 112
+2025-07-16 09:48:19,600 | INFO | django.server | "PUT /api/backups/5/ HTTP/1.1" 200 112
+2025-07-16 09:48:26,949 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 543
+2025-07-16 09:48:43,172 | WARNING | api.views | testuser a supprimé une tâche de backup du 2025-07-15 20:08:53.516094+00:00 pour le serveur ID 2.
+2025-07-16 09:48:43,179 | INFO | django.server | "DELETE /api/backups/3/ HTTP/1.1" 204 0
+2025-07-16 09:49:05,788 | INFO | django.server | "PUT /api/backups/5/ HTTP/1.1" 200 112
+2025-07-16 09:49:44,837 | WARNING | django.request | Unauthorized: /api/incidents/
+2025-07-16 09:49:44,837 | WARNING | django.server | "POST /api/incidents/ HTTP/1.1" 401 58
+2025-07-16 09:52:16,987 | WARNING | django.request | Bad Request: /api/incidents/
+2025-07-16 09:52:16,987 | WARNING | django.server | "POST /api/incidents/ HTTP/1.1" 400 56
+2025-07-16 09:52:34,679 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 400
+2025-07-16 09:52:42,257 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 142
+2025-07-16 09:52:50,746 | INFO | api.views | testuser a signalé un incident 'Panne critique' sur le serveur ID 2 à 2025-07-16 09:52:50.738425+00:00.
+2025-07-16 09:52:50,749 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 168
+2025-07-16 09:54:10,246 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 170
+2025-07-16 09:54:30,764 | INFO | django.server | "GET /api/incidents/3/ HTTP/1.1" 200 168
+2025-07-16 09:55:10,906 | INFO | django.server | "PUT /api/incidents/3/ HTTP/1.1" 200 168
+2025-07-16 09:55:36,972 | WARNING | api.views | testuser a supprimé l'incident 'Panne critique' sur le serveur ID 2.
+2025-07-16 09:55:36,980 | INFO | django.server | "DELETE /api/incidents/3/ HTTP/1.1" 204 0
+2025-07-16 09:56:47,307 | INFO | api.views | testuser a signalé un incident 'Panne critique' sur le serveur ID 2 à 2025-07-16 09:56:47.307305+00:00.
+2025-07-16 09:56:47,315 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 168
+2025-07-16 09:56:59,302 | INFO | django.server | "PUT /api/incidents/4/ HTTP/1.1" 200 168
+2025-07-16 09:57:17,948 | WARNING | api.views | testuser a supprimé l'incident 'Panne critique' sur le serveur ID 2.
+2025-07-16 09:57:17,956 | INFO | django.server | "DELETE /api/incidents/4/ HTTP/1.1" 204 0
+2025-07-16 09:58:43,459 | INFO | api.views | testuser a signalé un incident 'Panne critique' sur le serveur ID 2 à 2025-07-16 09:58:43.459168+00:00.
+2025-07-16 09:58:43,463 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 168
+2025-07-16 09:59:03,896 | INFO | django.server | "PUT /api/incidents/5/ HTTP/1.1" 200 168
+2025-07-16 09:59:18,514 | INFO | django.server | "GET /api/incidents/5/ HTTP/1.1" 200 168
+2025-07-16 16:52:00,599 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 17:42:00,350 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 18:26:23,397 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 19:11:34,355 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 20:37:19,034 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 20:39:44,392 | WARNING | django.request | Not Found: /
+2025-07-16 20:39:44,393 | WARNING | django.server | "GET / HTTP/1.1" 404 179
+2025-07-16 20:39:44,461 | WARNING | django.request | Not Found: /favicon.ico
+2025-07-16 20:39:44,461 | WARNING | django.server | "GET /favicon.ico HTTP/1.1" 404 179
+2025-07-16 20:42:17,458 | INFO | django.utils.autoreload | /app/backend/urls.py changed, reloading.
+2025-07-16 20:42:19,267 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 20:45:03,584 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 20:45:19,157 | WARNING | django.request | Not Found: /
+2025-07-16 20:45:19,157 | WARNING | django.server | "GET / HTTP/1.1" 404 179
+2025-07-16 20:46:06,755 | INFO | django.utils.autoreload | /app/backend/urls.py changed, reloading.
+2025-07-16 20:46:07,597 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 20:47:32,797 | INFO | django.utils.autoreload | /app/backend/urls.py changed, reloading.
+2025-07-16 20:47:33,542 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 20:48:12,856 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-16 20:48:13,044 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-16 21:00:10,070 | INFO | django.utils.autoreload | /app/api/urls.py changed, reloading.
+2025-07-16 21:00:10,801 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 21:01:29,458 | INFO | django.utils.autoreload | /app/api/views.py changed, reloading.
+2025-07-16 21:01:30,162 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 21:02:17,432 | INFO | django.utils.autoreload | /app/api/views.py changed, reloading.
+2025-07-16 21:02:18,080 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 21:34:28,159 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-16 21:34:46,842 | INFO | django.server | "GET /api/test/ HTTP/1.1" 200 5171
+2025-07-16 21:34:46,886 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-07-16 21:34:46,887 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+2025-07-16 21:34:46,887 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-07-16 21:34:46,888 | WARNING | django.request | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-07-16 21:34:46,889 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+2025-07-16 21:34:46,890 | WARNING | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+2025-07-16 21:34:46,902 | WARNING | django.request | Not Found: /static/rest_framework/css/prettify.css
+2025-07-16 21:34:46,905 | WARNING | django.request | Not Found: /static/rest_framework/js/csrf.js
+2025-07-16 21:34:46,907 | WARNING | django.request | Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-07-16 21:34:46,909 | WARNING | django.request | Not Found: /static/rest_framework/css/default.css
+2025-07-16 21:34:46,910 | WARNING | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+2025-07-16 21:34:46,911 | WARNING | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+2025-07-16 21:34:46,912 | WARNING | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+2025-07-16 21:34:46,913 | WARNING | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+2025-07-16 21:34:46,918 | WARNING | django.request | Not Found: /static/rest_framework/js/ajax-form.js
+2025-07-16 21:34:46,919 | WARNING | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+2025-07-16 21:34:46,922 | WARNING | django.request | Not Found: /static/rest_framework/js/prettify-min.js
+2025-07-16 21:34:46,922 | WARNING | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+2025-07-16 21:34:46,923 | WARNING | django.request | Not Found: /static/rest_framework/js/default.js
+2025-07-16 21:34:46,924 | WARNING | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+2025-07-16 21:34:46,925 | WARNING | django.request | Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-07-16 21:34:46,926 | WARNING | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+2025-07-16 21:54:34,102 | WARNING | django.request | Unauthorized: /api/register/
+2025-07-16 21:54:34,107 | WARNING | django.server | "POST /api/register/ HTTP/1.1" 401 172
+2025-07-16 21:54:46,529 | WARNING | django.request | Bad Request: /api/register/
+2025-07-16 21:54:46,530 | WARNING | django.server | "POST /api/register/ HTTP/1.1" 400 79
+2025-07-16 21:56:13,197 | WARNING | django.request | Bad Request: /api/register/
+2025-07-16 21:56:13,199 | WARNING | django.server | "POST /api/register/ HTTP/1.1" 400 82
+2025-07-16 21:56:41,642 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 19
+2025-07-16 21:56:42,442 | WARNING | django.request | Bad Request: /api/register/
+2025-07-16 21:56:42,442 | WARNING | django.server | "POST /api/register/ HTTP/1.1" 400 58
+2025-07-16 21:56:59,183 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 26
+2025-07-16 21:57:41,965 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-16 21:58:59,429 | INFO | django.server | "POST /api/register/ HTTP/1.1" 201 20
+2025-07-16 21:59:13,650 | INFO | django.server | "POST /api/token/ HTTP/1.1" 200 483
+2025-07-16 22:00:12,985 | WARNING | django.request | Method Not Allowed: /api/secured/
+2025-07-16 22:00:12,985 | WARNING | django.server | "POST /api/secured/ HTTP/1.1" 405 41
+2025-07-16 22:00:20,186 | INFO | api.views | admin a accédé à /api/secured/
+2025-07-16 22:00:20,188 | INFO | django.server | "GET /api/secured/ HTTP/1.1" 200 48
+2025-07-16 22:01:22,250 | WARNING | django.request | Bad Request: /api/servers/
+2025-07-16 22:01:22,250 | WARNING | django.server | "POST /api/servers/ HTTP/1.1" 400 124
+2025-07-16 22:32:27,320 | WARNING | django.request | Bad Request: /api/servers/
+2025-07-16 22:32:27,324 | WARNING | django.server | "POST /api/servers/ HTTP/1.1" 400 48
+2025-07-16 22:32:55,206 | INFO | api.views | user_docker a créé le serveur 'Serveur Web' (192.168.1.10).
+2025-07-16 22:32:55,218 | INFO | django.server | "POST /api/servers/ HTTP/1.1" 201 143
+2025-07-16 22:33:00,984 | INFO | api.views | user_docker a créé le serveur 'Serveur Web' (192.168.1.10).
+2025-07-16 22:33:00,989 | INFO | django.server | "POST /api/servers/ HTTP/1.1" 201 143
+2025-07-16 22:33:08,663 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 289
+2025-07-16 22:33:20,446 | INFO | django.server | "GET /api/servers/2/ HTTP/1.1" 200 143
+2025-07-16 22:33:30,619 | INFO | django.server | "PUT /api/servers/2/ HTTP/1.1" 200 143
+2025-07-16 22:33:36,834 | INFO | django.server | "PUT /api/servers/1/ HTTP/1.1" 200 143
+2025-07-16 22:33:46,204 | WARNING | api.views | user_docker a supprimé le serveur 'Serveur Web' (192.168.1.10).
+2025-07-16 22:33:46,226 | INFO | django.server | "DELETE /api/servers/1/ HTTP/1.1" 204 0
+2025-07-16 22:34:12,551 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-16 22:34:12,551 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 106
+2025-07-16 22:34:28,687 | INFO | api.views | user_docker a créé une tâche de backup pour le serveur ID 2 à 2025-07-16 22:34:28.643931+00:00.
+2025-07-16 22:34:28,698 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 114
+2025-07-16 22:34:37,395 | WARNING | django.request | Bad Request: /api/backups/
+2025-07-16 22:34:37,396 | WARNING | django.server | "POST /api/backups/ HTTP/1.1" 400 56
+2025-07-16 22:34:41,928 | INFO | api.views | user_docker a créé une tâche de backup pour le serveur ID 2 à 2025-07-16 22:34:41.926764+00:00.
+2025-07-16 22:34:41,933 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 114
+2025-07-16 22:34:45,894 | INFO | api.views | user_docker a créé une tâche de backup pour le serveur ID 2 à 2025-07-16 22:34:45.893268+00:00.
+2025-07-16 22:34:45,902 | INFO | django.server | "POST /api/backups/ HTTP/1.1" 201 114
+2025-07-16 22:34:51,173 | INFO | django.server | "GET /api/backups/ HTTP/1.1" 200 346
+2025-07-16 22:35:02,347 | INFO | django.server | "GET /api/backups/3/ HTTP/1.1" 200 114
+2025-07-16 22:35:08,869 | INFO | django.server | "PUT /api/backups/3/ HTTP/1.1" 200 114
+2025-07-16 22:35:15,032 | WARNING | api.views | user_docker a supprimé une tâche de backup du 2025-07-16 22:34:45.893268+00:00 pour le serveur ID 2.
+2025-07-16 22:35:15,076 | INFO | django.server | "DELETE /api/backups/3/ HTTP/1.1" 204 0
+2025-07-16 22:35:43,147 | WARNING | django.request | Bad Request: /api/incidents/
+2025-07-16 22:35:43,148 | WARNING | django.server | "POST /api/incidents/ HTTP/1.1" 400 56
+2025-07-16 22:35:50,545 | INFO | api.views | user_docker a signalé un incident 'Incident disque plein' sur le serveur ID 2 à 2025-07-16 22:35:50.497581+00:00.
+2025-07-16 22:35:50,552 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 213
+2025-07-16 22:36:01,512 | INFO | django.server | "GET /api/servers/ HTTP/1.1" 200 145
+2025-07-16 22:36:13,958 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 215
+2025-07-16 22:36:20,120 | INFO | api.views | user_docker a signalé un incident 'Incident disque plein' sur le serveur ID 2 à 2025-07-16 22:36:20.117408+00:00.
+2025-07-16 22:36:20,133 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 213
+2025-07-16 22:36:25,490 | INFO | api.views | user_docker a signalé un incident 'Incident disque plein' sur le serveur ID 2 à 2025-07-16 22:36:25.488959+00:00.
+2025-07-16 22:36:25,496 | INFO | django.server | "POST /api/incidents/ HTTP/1.1" 201 213
+2025-07-16 22:36:40,909 | WARNING | django.request | Not Found: /api/incidents/21/
+2025-07-16 22:36:40,910 | WARNING | django.server | "GET /api/incidents/21/ HTTP/1.1" 404 49
+2025-07-16 22:36:52,861 | INFO | django.server | "GET /api/incidents/ HTTP/1.1" 200 643
+2025-07-16 22:37:05,379 | INFO | django.server | "GET /api/incidents/2/ HTTP/1.1" 200 213
+2025-07-16 22:37:12,149 | INFO | django.server | "PUT /api/incidents/2/ HTTP/1.1" 200 213
+2025-07-16 22:37:25,862 | WARNING | api.views | user_docker a supprimé l'incident 'Incident disque plein' sur le serveur ID 2.
+2025-07-16 22:37:25,906 | INFO | django.server | "DELETE /api/incidents/3/ HTTP/1.1" 204 0
+2025-07-17 01:05:45,771 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-17 01:05:46,370 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 01:06:07,296 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-17 01:06:07,463 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 01:07:02,965 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-17 01:07:04,405 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 01:29:06,152 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 01:31:25,680 | INFO | django.server | "GET /api/test/ HTTP/1.1" 200 5171
+2025-07-17 01:31:25,747 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-07-17 01:31:25,748 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-07-17 01:31:25,749 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+2025-07-17 01:31:25,753 | WARNING | django.request | Not Found: /static/rest_framework/css/default.css
+2025-07-17 01:31:25,755 | WARNING | django.request | Not Found: /static/rest_framework/css/prettify.css
+2025-07-17 01:31:25,757 | WARNING | django.request | Not Found: /static/rest_framework/js/csrf.js
+2025-07-17 01:31:25,760 | WARNING | django.request | Not Found: /static/rest_framework/js/ajax-form.js
+2025-07-17 01:31:25,760 | WARNING | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+2025-07-17 01:31:25,761 | WARNING | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+2025-07-17 01:31:25,763 | WARNING | django.request | Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-07-17 01:31:25,764 | WARNING | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+2025-07-17 01:31:25,766 | WARNING | django.request | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-07-17 01:31:25,767 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+2025-07-17 01:31:25,768 | WARNING | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+2025-07-17 01:31:25,769 | WARNING | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+2025-07-17 01:31:25,770 | WARNING | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+2025-07-17 01:31:25,774 | WARNING | django.request | Not Found: /static/rest_framework/js/prettify-min.js
+2025-07-17 01:31:25,776 | WARNING | django.request | Not Found: /static/rest_framework/js/default.js
+2025-07-17 01:31:25,777 | WARNING | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+2025-07-17 01:31:25,778 | WARNING | django.request | Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-07-17 01:31:25,780 | WARNING | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+2025-07-17 01:31:25,780 | WARNING | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+2025-07-17 01:31:29,592 | WARNING | django.request | Not Found: /api/
+2025-07-17 01:31:29,593 | WARNING | django.server | "GET /api/ HTTP/1.1" 404 179
+2025-07-17 01:31:37,049 | INFO | django.server | "GET /api/test/ HTTP/1.1" 200 5171
+2025-07-17 01:31:37,071 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-07-17 01:31:37,072 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-07-17 01:31:37,073 | WARNING | django.request | Not Found: /static/rest_framework/css/prettify.css
+2025-07-17 01:31:37,075 | WARNING | django.request | Not Found: /static/rest_framework/css/default.css
+2025-07-17 01:31:37,077 | WARNING | django.request | Not Found: /static/rest_framework/js/ajax-form.js
+2025-07-17 01:31:37,077 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+2025-07-17 01:31:37,078 | WARNING | django.request | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-07-17 01:31:37,080 | WARNING | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+2025-07-17 01:31:37,080 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+2025-07-17 01:31:37,082 | WARNING | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+2025-07-17 01:31:37,082 | WARNING | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+2025-07-17 01:31:37,083 | WARNING | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+2025-07-17 01:31:37,092 | WARNING | django.request | Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-07-17 01:31:37,093 | WARNING | django.request | Not Found: /static/rest_framework/js/csrf.js
+2025-07-17 01:31:37,094 | WARNING | django.request | Not Found: /static/rest_framework/js/prettify-min.js
+2025-07-17 01:31:37,095 | WARNING | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+2025-07-17 01:31:37,097 | WARNING | django.request | Not Found: /static/rest_framework/js/default.js
+2025-07-17 01:31:37,097 | WARNING | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+2025-07-17 01:31:37,098 | WARNING | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+2025-07-17 01:31:37,098 | WARNING | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+2025-07-17 01:31:37,101 | WARNING | django.request | Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-07-17 01:31:37,101 | WARNING | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+2025-07-17 01:31:40,309 | INFO | django.server | "GET /api/test/?format=json HTTP/1.1" 200 40
+2025-07-17 01:31:44,147 | INFO | django.server | "GET /api/test/?format=api HTTP/1.1" 200 5215
+2025-07-17 01:31:44,166 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-07-17 01:31:44,166 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+2025-07-17 01:31:44,171 | WARNING | django.request | Not Found: /static/rest_framework/css/prettify.css
+2025-07-17 01:31:44,173 | WARNING | django.request | Not Found: /static/rest_framework/js/ajax-form.js
+2025-07-17 01:31:44,174 | WARNING | django.request | Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-07-17 01:31:44,175 | WARNING | django.request | Not Found: /static/rest_framework/css/default.css
+2025-07-17 01:31:44,176 | WARNING | django.request | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-07-17 01:31:44,178 | WARNING | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+2025-07-17 01:31:44,179 | WARNING | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+2025-07-17 01:31:44,179 | WARNING | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+2025-07-17 01:31:44,180 | WARNING | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+2025-07-17 01:31:44,180 | WARNING | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+2025-07-17 01:31:44,190 | WARNING | django.request | Not Found: /static/rest_framework/js/csrf.js
+2025-07-17 01:31:44,191 | WARNING | django.request | Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-07-17 01:31:44,193 | WARNING | django.request | Not Found: /static/rest_framework/js/default.js
+2025-07-17 01:31:44,195 | WARNING | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+2025-07-17 01:31:44,196 | WARNING | django.request | Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-07-17 01:31:44,197 | WARNING | django.request | Not Found: /static/rest_framework/js/prettify-min.js
+2025-07-17 01:31:44,197 | WARNING | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+2025-07-17 01:31:44,197 | WARNING | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+2025-07-17 01:31:44,199 | WARNING | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+2025-07-17 01:31:44,199 | WARNING | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+2025-07-17 01:31:50,472 | INFO | django.server | "GET /api/test/?format=json HTTP/1.1" 200 40
+2025-07-17 01:47:08,833 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 01:48:51,594 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-17 01:48:52,941 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-17 01:49:02,058 | INFO | django.server | "GET /api/test/ HTTP/1.1" 200 5171
+2025-07-17 01:49:02,073 | INFO | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2025-07-17 01:49:02,074 | INFO | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2025-07-17 01:49:02,103 | INFO | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2025-07-17 01:49:02,105 | INFO | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+2025-07-17 01:49:02,105 | INFO | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+2025-07-17 01:49:02,106 | INFO | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+2025-07-17 01:49:02,107 | INFO | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+2025-07-17 01:49:02,109 | INFO | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2025-07-17 01:49:02,109 | INFO | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2025-07-17 01:49:02,114 | INFO | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2025-07-17 01:49:02,115 | INFO | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2025-07-17 01:49:02,133 | INFO | django.server | "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2025-07-17 01:49:22,730 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-17 01:54:12,110 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 01:54:18,684 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-17 01:54:20,399 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-17 01:54:33,053 | INFO | django.server | "GET /api/test/ HTTP/1.1" 200 5171
+2025-07-17 01:54:33,078 | INFO | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+2025-07-17 01:54:33,080 | INFO | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2025-07-17 01:54:33,105 | INFO | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+2025-07-17 01:54:33,106 | INFO | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2025-07-17 01:54:33,107 | INFO | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+2025-07-17 01:54:33,109 | INFO | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2025-07-17 01:54:33,110 | INFO | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2025-07-17 01:54:33,113 | INFO | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2025-07-17 01:54:33,131 | INFO | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2025-07-17 01:54:33,132 | INFO | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2025-07-17 01:54:33,141 | INFO | django.server | "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2025-07-17 01:54:33,160 | INFO | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+2025-07-17 01:54:38,540 | WARNING | django.request | Not Found: /api/
+2025-07-17 01:54:38,547 | WARNING | django.server | "GET /api/ HTTP/1.1" 404 6502
+2025-07-17 01:54:43,417 | WARNING | django.request | Not Found: /api
+2025-07-17 01:54:43,418 | WARNING | django.server | "GET /api HTTP/1.1" 404 2837
+2025-07-17 01:54:55,904 | INFO | django.server | "GET /api/test/ HTTP/1.1" 200 5171
+2025-07-17 01:54:55,930 | INFO | django.server | "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2025-07-17 01:54:55,934 | INFO | django.server | "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2025-07-17 01:54:55,934 | INFO | django.server | "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2025-07-17 01:54:55,935 | INFO | django.server | "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2025-07-17 01:54:55,937 | INFO | django.server | "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2025-07-17 01:54:55,939 | INFO | django.server | "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2025-07-17 01:54:55,942 | INFO | django.server | "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2025-07-17 01:54:55,944 | INFO | django.server | "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2025-07-17 01:54:55,948 | INFO | django.server | "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2025-07-17 01:54:55,949 | INFO | django.server | "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2025-07-17 01:54:55,984 | INFO | django.server | "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2025-07-17 01:56:29,931 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-17 01:56:30,152 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 14:55:22,629 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-17 15:07:06,075 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 12:54:37,761 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 12:56:08,366 | INFO | django.server | "GET / HTTP/1.1" 200 36
+2025-07-28 12:56:08,445 | WARNING | django.request | Not Found: /favicon.ico
+2025-07-28 12:56:08,446 | WARNING | django.server | "GET /favicon.ico HTTP/1.1" 404 2861
+2025-07-28 13:09:56,731 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:09:59,203 | INFO | django.server | "GET / HTTP/1.0" 200 36
+2025-07-28 13:09:59,292 | WARNING | django.request | Not Found: /favicon.ico
+2025-07-28 13:09:59,292 | WARNING | django.server | "GET /favicon.ico HTTP/1.0" 404 2856
+2025-07-28 13:10:05,045 | INFO | django.server | "GET / HTTP/1.0" 200 36
+2025-07-28 13:18:19,534 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:19:09,070 | INFO | django.server | "GET / HTTP/1.0" 200 36
+2025-07-28 13:19:09,200 | WARNING | django.request | Not Found: /favicon.ico
+2025-07-28 13:19:09,201 | WARNING | django.server | "GET /favicon.ico HTTP/1.0" 404 2856
+2025-07-28 13:20:53,333 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-28 13:20:54,180 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:21:29,229 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-28 13:21:30,065 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:24:32,088 | INFO | django.utils.autoreload | /app/backend/settings.py changed, reloading.
+2025-07-28 13:24:32,727 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:26:15,788 | INFO | django.utils.autoreload | /app/backend/urls.py changed, reloading.
+2025-07-28 13:26:16,639 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:26:48,637 | INFO | django.utils.autoreload | /app/backend/urls.py changed, reloading.
+2025-07-28 13:26:49,294 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:27:17,149 | INFO | django.utils.autoreload | /app/backend/urls.py changed, reloading.
+2025-07-28 13:27:17,883 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:28:32,294 | INFO | django.utils.autoreload | /app/api/urls.py changed, reloading.
+2025-07-28 13:28:33,097 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:30:54,354 | INFO | django.utils.autoreload | /app/api/views.py changed, reloading.
+2025-07-28 13:30:54,974 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2025-07-28 13:59:12,374 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
